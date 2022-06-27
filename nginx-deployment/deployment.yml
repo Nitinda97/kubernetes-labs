@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-deployment 
+spec: 
+  replicas: 1
+  selector:
+    matchLabels:
+      app: chatapp
+  template:
+    metadata:
+      name: app-pod 
+      labels: 
+        app: chatapp 
+    spec:
+      containers: 
+        - name: app-container 
+          image: nitindadev/studentapp:v1
+          ports:
+           - containerPort: 8080
