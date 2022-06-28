@@ -11,7 +11,7 @@
 	<packaging>war</packaging>
 	<groupId>com.stacksimplify.restservices</groupId>
 	<artifactId>usermgmt-webapp</artifactId>
-	<version>v2</version>	
+	<version>v1</version>	
 	<name>usercorpapp</name>
 	<description>Spring Boot Web Application</description>
 
